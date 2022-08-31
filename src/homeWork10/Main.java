@@ -9,5 +9,7 @@ public class Main {
         book1.setYearPublishing(1862);
         System.out.println(book1);
         System.out.println(book2);
+        System.out.println(book1.hashCode() == book2.hashCode());
+        System.out.println(book1.equals(book2));
     }
 }
